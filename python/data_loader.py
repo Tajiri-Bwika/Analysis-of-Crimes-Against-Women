@@ -2,7 +2,7 @@ import pandas as pd
 
 def load_and_prepare_data():
 
-    data1 = pd.read_csv("CrimesOnWomenData.csv")
+    data1 = pd.read_csv("Dataset/CrimesOnWomenData.csv")
 
     data1 = data1.rename(columns={"Unnamed: 0": "NO"})
 
@@ -41,6 +41,7 @@ def load_and_prepare_data():
         var_name="Type of Crime",
         value_name="Crime Count"
     )
+
 
 
     return data1, long_df, crime_columns
