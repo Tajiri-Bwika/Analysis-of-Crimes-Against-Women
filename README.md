@@ -30,8 +30,6 @@ Dataset
 Python codes
    srs.py
    data_loader.py
-│
-Streamlit codes
    apps.py
 ```
 
@@ -98,8 +96,6 @@ The function `load_and_prepare_data()` returns three objects.
 This module improves code organization and avoids repeating preprocessing steps.
 
 ---
-
-### Streamlit Codes
 
 #### apps.py
 
